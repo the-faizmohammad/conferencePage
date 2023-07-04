@@ -48,8 +48,8 @@
   
   .mob-menu-links {
     position: fixed;
-    background-color: rgba(112, 124, 118, 0.6);
-    backdrop-filter: blur(7px);
+    background-color: var(--primary-red);
+    backdrop-filter: blur(12px);
     display: none;
     align-items: center;
     gap: 30px;
@@ -76,7 +76,7 @@
   
   .mob-menu-links a {
     text-decoration: none;
-    color:var(--primary-red);
+    color:var(--primary-grey);
     font-family: "lato", sans-serif;
     font-size: 25px;
   }
