@@ -76,7 +76,7 @@
   
   .mob-menu-links a {
     text-decoration: none;
-    color: #fff;
+    color:var(--primary-red);
     font-family: "lato", sans-serif;
     font-size: 25px;
   }
@@ -112,7 +112,7 @@
   }
   
   .header-main-salutation {
-    color: rgb(255, 4, 4);
+    color: var(--primary-red);
     font-size: 24px;
     padding: 28px 20px 5px 20px;
   }
@@ -185,7 +185,7 @@
 .program-items h4 {
   padding: 30px 13px;
   font-size: 15px;
-  color: rgb(255, 4, 4);
+  color: var(--primary-red);
 }
 
 .program-items p {
@@ -197,7 +197,7 @@
 
 .program-btn {
   padding: 30px;
-  background-color: #f44336;
+  background-color: var(--primary-red);
   margin: 30px 40px;
 }
 
@@ -231,7 +231,7 @@
     }
   
     #ai {
-      border: 3px solid red;
+      border: 3px solid orangered;
       padding: 5px;
       margin-bottom: 24px;
     }
