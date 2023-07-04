@@ -1,36 +1,36 @@
 const speakers = [
     {
-      image: 'assets/1.jpg',
+      image: '.assets/oryl obel.jpg',
       speakerName: 'Orly Obel',
       job: 'Doctor of Intelligent Systems Enginnering',
       description: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ullam iste aliquid facilis rerum aut minima nam laborum maxime',
     },
     {
-      image: 'assets/4.jpg',
+      image: 'assets/Babak_Hodjat.png',
       speakerName: 'Babak Hodjat',
       job: '  Software Engineer and specialist',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ullam iste aliquid facilis rerum aut minima nam laborum maxime',
     },
     {
-      image: 'assets/3.jpg',
+      image: 'assets/dr ebtesam.jpeg',
       speakerName: 'Dr ebtesam',
       job: '  Software Developer and specialist',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ullam iste aliquid facilis rerum aut minima nam laborum maxime',
     },
     {
-      image: 'assets/1.jpg',
+      image: 'assets/Lila Ibrahim.jpg',
       speakerName: 'Lila Ibrahim',
       job: '    Mobile Application Devloper and specialist',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ullam iste aliquid facilis rerum aut minima nam laborum maxime',
     },
     {
-      image: 'assets/4.jpg',
+      image: 'assets/ali agha.jpeg',
       speakerName: 'Ali Agha',
       job: '  Expert of Cisco ',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ullam iste aliquid facilis rerum aut minima nam laborum maxime',
     },
     {
-      image: 'assets/5.jpg',
+      image: 'assets/elon musk.jpeg',
       speakerName: 'Elon Musk',
       job: '    Full-Stack Software Developer',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ullam iste aliquid facilis rerum aut minima nam laborum maxime',
