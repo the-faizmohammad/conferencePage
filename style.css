@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "Cocogoose Pro Letterpress";
+    src: url("fonts/cocogoose-pro.letterpress.ttf");
+  }
+  
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  a {
+    font-family: "lato", sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-red: #ec5242;
+    --primary-black: #272a31;
+    --primary-grey: #d3d3d3;
+  }
+
+  .home-container {
+    background-image: url(./assets/mobile_intro_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 480px;
+  }
+  
+  /* start mobile-menu */
+  header-main {
+    display: block;
+  }
+  
+  .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -10px;
+  }
+  
+  .mob-menu-links {
+    position: fixed;
+    background-color: rgba(112, 124, 118, 0.6);
+    backdrop-filter: blur(7px);
+    display: none;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 11;
+  }
+
+  .top-nav-item img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  
+  .logo {
+    height: 100px;
+    margin: 40px;
+  }
+  
+  .mob-menu-links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "lato", sans-serif;
+    font-size: 25px;
+  }
+  
+  .close-link {
+    position: absolute;
+    left: 33px;
+    top: 19px;
+  }
+  
+  .nav-bar-icon {
+    width: 24px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: -20px;
+  }
+  
+  /*  ends mobile menu */
+  .header-main-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .hamburger {
+    color: var(--primary-black);
+    padding: 30px 40px;
+  }
+  
+  .hamburger img {
+    width: 24px;
+    height: 20px;
+  }
+  
+  .header-main-salutation {
+    color: rgb(255, 4, 4);
+    font-size: 24px;
+    padding: 28px 20px 5px 20px;
+  }
+  
+  .header-main-title {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0 20px;
+    -webkit-background-clip: text;
+    background-image: url(assets/bg_title.jfif);
+    color: transparent;
+  }
+  
+  .header-main-description {
+    color: var(--primary-black);
+    font-size: 16px;
+    border: 2px solid white;
+    padding: 10px;
+    line-height: 23px;
+    margin: 20px 10px;
+    background-color: #d3d3d330;
+  }
+  
+  .header-date {
+    color: var(--primary-black);
+    font-size: 28px;
+    padding-left: 18px;
+  }
+  
+  .header-main-subdescription {
+    color: var(--primary-black);
+    padding-left: 18px;
+    padding-top: 8px;
+    font-size: 16px;
+  }
+
+  .bottom-nav-bar,
+.top-nav-bar {
+  display: none;
+}
+
+  @media only screen and (min-width: 768px) {
+    .mobile-head {
+      display: none;
+    }
+  
+    .navbar {
+      width: 100%;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+  
+    .top-nav-bar {
+      background-color: var(--primary-black);
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 13px;
+      padding-right: 80px;
+      padding-top: 10px;
+    }
+  
+    #ai {
+      border: 3px solid red;
+      padding: 5px;
+      margin-bottom: 24px;
+    }
+  
+    .bottom-nav-bar {
+      background-color: white;
+      height: 84px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .top-nav-item {
+      font-size: 15px;
+      color: #fff;
+      font-weight: normal;
+      font-family: Poppins, sans-serif;
+      margin: 10px;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  
+    .nav-bar-logo {
+      height: 80px;
+      width: 145px;
+      margin: 44px;
+    }
+  
+    .nav-bar-links {
+      display: flex;
+      flex-direction: row;
+      gap: 18px;
+      padding-right: 80px;
+      padding-top: 30px;
+    }
+  
+    .bottom-nav-link {
+      color: var(--primary-black);
+      font-size: 19px;
+    }
+
+    .home-container {
+      background-image: url(assets/main_big.png);
+      background-repeat: no-repeat;
+    }
+  
+    .header-main-salutation {
+      padding-top: 90px;
+      padding-left: 150px;
+      font-size: 40px;
+    }
+  
+    .header-main-title {
+      padding-left: 150px;
+      font-size: 60px;
+      width: 803px;
+    }
+  
+    .header-main-description {
+      margin-left: 150px;
+      width: 600px;
+      padding: 30px 30px;
+    }
+  
+    .header-date {
+      margin-left: 135px;
+    }
+  
+    .header-main-subdescription {
+      margin-left: 135px;
+      margin-bottom: 20px;
+      margin-bottom: 110px;
+    }
+}
