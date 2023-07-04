@@ -205,6 +205,63 @@
   display: none;
 }
 
+.program-speakers-main {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 15px;
+  background-image: url(assets/speaker_bg_img.png);
+  background-position: top left;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+
+.program-speakers-main img {
+  min-width: 125px;
+  padding-top: 20px;
+  padding-left: 16px;
+  padding-bottom: 45px;
+}
+
+.program-speakers-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.program-speakers-job {
+  font-size: 15px;
+  color: var(--primary-red);
+  margin: 5px 1px 20px 0;
+}
+
+.program-speakers-desc {
+  font-size: 14px;
+  font-family: "lato", sans-serif;
+}
+
+.program-speaker-underline {
+  color: var(--primary-grey);
+  width: 28px;
+  margin: -8px 0 15px 0;
+}
+
+.program-speaker-btn {
+  background-color: white;
+  border: 0.1px solid rgb(61, 63, 67);
+  width: 310px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+
+.program-speaker-btn img {
+  padding-left: 15px;
+}
+
   @media only screen and (min-width: 768px) {
     .mobile-head {
       display: none;
