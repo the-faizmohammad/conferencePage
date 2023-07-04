@@ -355,4 +355,30 @@
       text-align: center;
       margin-bottom: 60px;
     }
+
+    .program-speakers {
+      background-color: #d3d3d3;
+    }
+  
+    .program-speaker-part {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 20px 0 20px;
+      justify-content: center;
+      align-content: center;
+      width: 75%;
+      min-width: 768px;
+    }
+  
+    .program-speakers-underline {
+      background-color: rgb(250, 54, 6);
+      height: 1px;
+      width: 45px;
+      margin-top: -10px;
+      margin-bottom: 15px;
+    }
+  
+    .program-speaker-btn {
+      display: none;
+    }
 }
