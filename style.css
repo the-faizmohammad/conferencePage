@@ -259,4 +259,45 @@
       margin-bottom: 20px;
       margin-bottom: 110px;
     }
+
+    .program-part {
+      display: flex;
+      flex-direction: row;
+      gap: 0;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  
+    .program-items {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 2px 0 0 3px;
+    }
+  
+    .program-items:hover {
+      border: 1px solid white;
+    }
+  
+    .program-items p {
+      margin-top: -20px;
+    }
+  
+    .program-btn {
+      display: none;
+    }
+  
+    .click-to-see {
+      display: block;
+      color: #fff;
+      margin-top: 55px;
+      font-size: 16px;
+      text-decoration: underline;
+      font-weight: normal;
+      font-family: "lato", sans-serif;
+      text-align: center;
+      margin-bottom: 60px;
+    }
 }
