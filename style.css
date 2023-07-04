@@ -154,6 +154,51 @@
   display: none;
 }
 
+.program {
+  background-image: url(assets/dark-bg.jpg);
+  display: flex;
+  flex-direction: column;
+}
+
+.program-title {
+  color: #ffffffd9;
+  padding: 49px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.program-items {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 8px;
+  background-color: rgba(102, 97, 97, 0.5);
+  padding: 10px 20px;
+}
+
+.program-items img {
+  max-height: 45px;
+  margin-top: 12px;
+}
+
+.program-items h4 {
+  padding: 30px 13px;
+  font-size: 15px;
+  color: rgb(255, 4, 4);
+}
+
+.program-items p {
+  margin: 6px;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.program-btn {
+  padding: 30px;
+  background-color: #f44336;
+  margin: 30px 40px;
+}
+
   @media only screen and (min-width: 768px) {
     .mobile-head {
       display: none;
