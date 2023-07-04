@@ -201,6 +201,10 @@
   margin: 30px 40px;
 }
 
+.click-to-see {
+  display: none;
+}
+
   @media only screen and (min-width: 768px) {
     .mobile-head {
       display: none;
@@ -328,7 +332,7 @@
   
     .program-items:hover {
       border: 1px solid white;
-      width: 500px;
+      width: 800px;
       height: 500px;
     }
   
