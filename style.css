@@ -25,7 +25,7 @@
     --primary-grey: #d3d3d3;
   }
 
-  .home-container {
+  .header-main {
     background-image: url(./assets/mobile_intro_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,8 +69,9 @@
   
   
   .logo {
-    height: 100px;
-    margin: 40px;
+    height: 80px;
+    width: 145px;
+    margin: 44px;
   }
   
   .mob-menu-links a {
@@ -157,7 +158,7 @@
     .mobile-head {
       display: none;
     }
-  
+
     .navbar {
       width: 100%;
     }
@@ -206,9 +207,9 @@
     }
   
     .nav-bar-logo {
-      height: 80px;
-      width: 145px;
-      margin: 44px;
+      height: 90px;
+      width: 150px;
+      margin: 120px;
     }
   
     .nav-bar-links {
@@ -224,11 +225,13 @@
       font-size: 19px;
     }
 
-    .home-container {
+    .header-main {
       background-image: url(assets/main_big.png);
       background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
-  
+
     .header-main-salutation {
       padding-top: 90px;
       padding-left: 150px;
