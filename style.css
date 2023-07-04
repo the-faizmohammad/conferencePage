@@ -320,10 +320,14 @@
       align-items: center;
       text-align: center;
       margin: 2px 0 0 3px;
+      transition: width 2s, height 4s;
+
     }
   
     .program-items:hover {
       border: 1px solid white;
+      width: 300px;
+      height: 300px;
     }
   
     .program-items p {
