@@ -52,10 +52,10 @@ header-main {
 
 .mob-menu-links {
   position: fixed;
-  background-color: var(--primary-red);
+  background-color: #ec5242;
   backdrop-filter: blur(60px);
   display: none;
-  align-items: center;
+  align-items: left;
   gap: 30px;
   flex-direction: column;
   list-style: none;
@@ -64,6 +64,7 @@ header-main {
   top: 0;
   bottom: 0;
   z-index: 11;
+  padding: 40px;
 }
 
 .top-nav-item img {
@@ -75,14 +76,14 @@ header-main {
 .logo {
   height: 80px;
   width: 145px;
-  margin: 44px;
+  margin: 10px;
 }
 
 .mob-menu-links a {
   text-decoration: none;
   color: var(--primary-grey);
   font-family: "lato", sans-serif;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .close-link {
@@ -132,7 +133,7 @@ header-main {
 
 .header-main-description {
   color: var(--primary-black);
-  font-size: 16px;
+  font-size: 14px;
   border: 2px solid white;
   padding: 10px;
   line-height: 23px;
@@ -144,7 +145,7 @@ header-main {
 
 .header-date {
   color: var(--primary-black);
-  font-size: 28px;
+  font-size: 22px;
   padding-left: 18px;
 }
 
@@ -236,6 +237,11 @@ header-main {
   background-position: top left;
   background-size: 100px;
   background-repeat: no-repeat;
+  transition: transform 0.3s ease-in-out;
+}
+
+.program-speakers-main:hover {
+  transform: scale(1.1);
 }
 
 .program-speakers-main img {
@@ -340,9 +346,10 @@ header-main {
   }
 
   .nav-bar-logo {
-    height: 90px;
+    height: 78px;
     width: 150px;
     margin: 120px;
+    border: 4px solid #ec5242;
   }
 
   .nav-bar-links {
@@ -381,10 +388,13 @@ header-main {
     margin-left: 150px;
     width: 600px;
     padding: 30px 30px;
+    font-size: 18px;
+
   }
 
   .header-date {
     margin-left: 135px;
+    font-size: 30px;
   }
 
   .header-main-subdescription {
@@ -431,14 +441,10 @@ header-main {
     align-items: center;
     text-align: center;
     margin: 2px 0 0 3px;
-    transition: width 4s, height 4s;
-
   }
 
   .program-items:hover {
     border: 1px solid white;
-    width: 800px;
-    height: 500px;
   }
 
   .program-items p {

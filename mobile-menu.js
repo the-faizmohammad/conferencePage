@@ -16,3 +16,12 @@ close.addEventListener('click', () => {
   menuLink.style.display = 'none';
   icon.style.display = 'block';
 });
+
+var aiLink = document.getElementById("ai");
+
+function changeColor(event) {
+  event.target.style.backgroundColor = "orangered";
+  event.target.style.color = "white";
+}
+
+aiLink.addEventListener("click", changeColor);
