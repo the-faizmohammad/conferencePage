@@ -205,6 +205,24 @@
   display: none;
 }
 
+.program-speakers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-speakers-title {
+  margin: 30px auto;
+  font-size: 24px;
+}
+
+.program-speaker-title-underline {
+  width: 54px;
+  color: var(--primary-red);
+  margin-top: -15px;
+}
+
 .program-speakers-main {
   display: flex;
   flex-direction: row;
@@ -220,6 +238,8 @@
   padding-top: 20px;
   padding-left: 16px;
   padding-bottom: 45px;
+  width: 190px;
+  height: 180px;
 }
 
 .program-speakers-info {
