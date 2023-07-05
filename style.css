@@ -31,6 +31,10 @@
     background-size: cover;
     min-height: 480px;
   }
+
+  .header-video {
+    display: none;
+  }
   
   /* start mobile-menu */
   header-main {
@@ -49,7 +53,7 @@
   .mob-menu-links {
     position: fixed;
     background-color: var(--primary-red);
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(60px);
     display: none;
     align-items: center;
     gap: 30px;
@@ -199,6 +203,7 @@
   padding: 30px;
   background-color: var(--primary-red);
   margin: 30px 40px;
+  color: #fff;
 }
 
 .click-to-see {
@@ -238,7 +243,7 @@
   padding-top: 20px;
   padding-left: 16px;
   padding-bottom: 45px;
-  width: 190px;
+  width: 185px;
   height: 180px;
 }
 
@@ -387,6 +392,27 @@
       margin-bottom: 20px;
       margin-bottom: 110px;
     }
+
+.header-main {
+  position: relative;
+}
+
+.header-video {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px); /* Adjust the blur intensity as needed */
+  opacity: 0.8; /* Adjust the opacity of the blur effect as needed */
+}
+
+.header-main-content {
+  position: relative;
+  z-index: 1;
+}
 
     .program-part {
       display: flex;

@@ -38,21 +38,55 @@ const speakers = [
   ];
   
   // Add speakers
-  speakers.forEach((project) => {
-    const container = document.querySelector('.program-speaker-part');
+  // Add speakers
+const container = document.querySelector('.program-speaker-part');
+const moreButton = document.querySelector('.program-speaker-btn');
+const maxMobileCards = 2; // Maximum number of cards to show in mobile version
+let isMobileView = true; // Flag to track if the current view is mobile or desktop
+
+const showCards = (cardsToShow) => {
+  container.innerHTML = ''; // Clear the container
+  cardsToShow.forEach((project) => {
     const card = document.createElement('article');
     card.classList.add('program-speakers-main');
     card.innerHTML = `<img src="${project.image}" alt="speaker 1" />
-          <div class="program-speakers-info">
-            <h4 class="program-speakers-name">${project.speakerName}</h4>
-            <h5 class="program-speakers-job">
-              ${project.job}
-            </h5>
-            <hr class="program-speaker-underline" />
-            <p class="program-speakers-desc">
-             ${project.description}</p>
-          </div>`;
+      <div class="program-speakers-info">
+        <h4 class="program-speakers-name">${project.speakerName}</h4>
+        <h5 class="program-speakers-job">${project.job}</h5>
+        <hr class="program-speaker-underline" />
+        <p class="program-speakers-desc">${project.description}</p>
+      </div>`;
     container.appendChild(card);
   });
+};
+
+const toggleView = () => {
+  if (isMobileView) {
+    moreButton.textContent = 'Less';
+    showCards(speakers);
+  } else {
+    moreButton.textContent = 'More';
+    showCards(speakers.slice(0, maxMobileCards));
+  }
+  isMobileView = !isMobileView;
+};
+
+// Show initial cards based on the view
+if (window.innerWidth >= 768) {
+  showCards(speakers);
+} else {
+  showCards(speakers.slice(0, maxMobileCards));
+}
+
+// Toggle view on "More" button click
+moreButton.addEventListener('click', toggleView);
+
+// Update the view on window resize
+window.addEventListener('resize', () => {
+  if (window.innerWidth >= 768 && !isMobileView) {
+    toggleView();
+  }
+});
+
   
   
