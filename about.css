@@ -26,16 +26,16 @@ a {
 }
 
 .header-main {
+    background-color: var(--gray-color);
     background-image: url(./assets/about_bg_01.png);
     background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 30px;
     background-size: cover;
     min-height: 480px;
     position: relative;
-    background-position-x: 0;
-    background-position-y: 30px;
-    background-size: 210%;
-    background-color: var(--gray-color);
 }
+
 
 /* start mobile-menu */
 header-main {
@@ -44,30 +44,29 @@ header-main {
 
 
 .mobile-nav {
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-right: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: -10px;
-
 }
 
 .mob-menu-links {
     position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: rgba(236, 82, 66, 0.5);
     backdrop-filter: blur(60px);
+    padding: 40px;
     display: none;
     align-items: left;
-    gap: 30px;
     flex-direction: column;
+    gap: 30px;
     list-style: none;
-    width: 100%;
-    left: 0;
-    top: 0;
-    bottom: 0;
     z-index: 11;
-    padding: 40px;
 }
 
 .top-nav-item img {
@@ -135,13 +134,13 @@ header-main {
 }
 
 .header-main-description {
+    background-color: #fff;
+    border: 2px solid #fff;
     color: var(--primary-black);
     font-size: 14px;
-    border: 2px solid #fff;
-    padding: 10px;
     line-height: 23px;
     margin: 20px 10px;
-    background-color: #fff;
+    padding: 10px;
     text-align: center;
 }
 
@@ -172,12 +171,12 @@ header-main {
 }
 
 .about-creative-underline {
-    background-color: rgb(250, 54, 6);
-    height: 1px;
-    width: 25px;
     margin-top: 15px;
     margin-bottom: -10px;
     margin-left: 50%;
+    background-color: rgb(250, 54, 6);
+    height: 1px;
+    width: 25px;
 }
 
 .about-top-p {
@@ -310,13 +309,13 @@ header-main {
 .our-second-partner {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
     margin-left: 20px;
     margin-right: 20px;
     min-width: 100px;
     gap: 45px;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
 }
 
 .our-second-partner img {
@@ -331,9 +330,9 @@ header-main {
     align-items: center;
     background-color: #d3d3d3;
     height: 200px;
-  }
-  
-  .footer-section {
+}
+
+.footer-section {
     background-color: var(--primary-grey);
     width: 100%;
     display: flex;
@@ -341,24 +340,25 @@ header-main {
     justify-content: center;
     align-items: center;
     padding: 10px;
-  }
-  
-  .footer-image {
+}
+
+.footer-image {
     width: 150px;
     height: auto;
     margin: 14px 10px;
     border-radius: 16px;
-  }
-  
-  .footer-description {
+}
+
+.footer-description {
     color: #272a31;
     font-weight: normal;
     font-size: 11px;
     text-align: center;
     font-family: "lato", sans-serif;
     margin: 10px;
-    width:fit-content
-  }
+    width: fit-content;
+}
+
   
 
 @media only screen and (min-width: 768px) {
@@ -400,7 +400,7 @@ header-main {
         justify-content: space-between;
         align-items: center;
     }
-
+    
     .top-nav-item {
         font-size: 15px;
         color: #fff;
@@ -408,18 +408,18 @@ header-main {
         font-family: Poppins, sans-serif;
         margin: 10px;
     }
-
+    
     a {
         text-decoration: none;
     }
-
+    
     .nav-bar-logo {
         height: 78px;
         width: 150px;
         margin: 120px;
         border: 4px solid #ec5242;
     }
-
+    
     .nav-bar-links {
         display: flex;
         flex-direction: row;
@@ -427,20 +427,20 @@ header-main {
         padding-right: 80px;
         padding-top: 30px;
     }
-
+    
     .bottom-nav-link {
         color: var(--primary-black);
         font-size: 19px;
     }
-
+    
     .header-main {
         background-image: url(assets/about_bg_02.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         background-color: #d3d3d33d;
-
     }
+    
 
     .header-main-salutation {
         display: none;

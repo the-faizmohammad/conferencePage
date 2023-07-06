@@ -48,7 +48,7 @@ header-main {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: -10px;
-  
+
 }
 
 .mob-menu-links {
@@ -100,7 +100,6 @@ header-main {
   margin-left: -20px;
 }
 
-/*  ends mobile menu */
 .header-main-content {
   display: flex;
   justify-content: center;
@@ -425,9 +424,7 @@ header-main {
     height: 100%;
     object-fit: cover;
     filter: blur(5px);
-    /* Adjust the blur intensity as needed */
     opacity: 0.8;
-    /* Adjust the opacity of the blur effect as needed */
   }
 
   .header-main-content {
@@ -589,4 +586,5 @@ header-main {
     margin-left: 50px;
     width: 42%;
   }
+
 }
