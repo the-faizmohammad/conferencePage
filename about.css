@@ -141,14 +141,14 @@ header-main {
     padding: 10px;
     line-height: 23px;
     margin: 20px 10px;
-    background-color: #d3d3d3;
+    background-color: #fff;
     text-align: center;
 }
 
 .header-main-subdescription {
     color: var(--primary-black);
     padding-top: 8px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     line-height: 20px;
     margin: 10px;
@@ -282,6 +282,55 @@ header-main {
     margin-top: -5px;
     text-decoration: underline;
 }
+
+.our-partner {
+    background-color: var(--primary-black);
+  }
+  
+  .our-partner-title {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+  }
+  
+  .our-partner-underline {
+    background-color: rgb(250, 54, 6);
+    height: 1px;
+    width: 25px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    margin-left: 45%;
+  }
+  
+  .our-first-partner {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    gap: 6px;
+    margin-top: 30px;
+  }
+  
+  .our-first-partner img {
+    width: 70px;
+    height: 45px;
+  }
+  
+  .our-second-partner {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 100px;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .our-second-partner img {
+    width: 85px;
+    height: 50px;
+  }
 
 @media only screen and (min-width: 768px) {
     .mobile-head {
