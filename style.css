@@ -48,11 +48,12 @@ header-main {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: -10px;
+  
 }
 
 .mob-menu-links {
   position: fixed;
-  background-color: #ec5242;
+  background-color: rgba(236, 82, 66, 0.5);
   backdrop-filter: blur(60px);
   display: none;
   align-items: left;
@@ -294,6 +295,10 @@ header-main {
 }
 
 .our-partner {
+  display: none;
+}
+
+.footer {
   display: none;
 }
 
@@ -544,5 +549,44 @@ header-main {
   .our-partner-logo img {
     width: 140px;
     height: 90px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #d3d3d3;
+  }
+
+  .footer-section {
+    background-color: var(--primary-grey);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 200px;
+    padding-bottom: 30px;
+  }
+
+  .footer-image {
+    width: 220px;
+    height: 100px;
+    margin: 14px 0;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .footer-description {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    font-family: "lato", sans-serif;
+    margin-left: 50px;
+    width: 42%;
   }
 }
