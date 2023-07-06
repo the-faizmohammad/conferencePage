@@ -183,6 +183,7 @@ header-main {
     font-size: 13px;
     padding: 30px 0;
     text-align: center;
+    margin: 60px;
 }
 
 .about-top-img {
@@ -513,7 +514,7 @@ header-main {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        padding-left: 200px;
+        padding-left: 150px;
         padding-bottom: 30px;
     }
 
