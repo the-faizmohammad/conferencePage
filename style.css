@@ -293,6 +293,10 @@ header-main {
   padding-left: 15px;
 }
 
+.our-partner {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .mobile-head {
     display: none;
@@ -491,5 +495,54 @@ header-main {
 
   .program-speaker-btn {
     display: none;
+  }
+
+  .our-partner {
+    background-color: var(--primary-black);
+    display: block;
+  }
+
+  .our-partner-part {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 60px;
+  }
+
+  .our-partner-title {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+  }
+
+  .our-partner-underline {
+    background-color: rgb(250, 54, 6);
+    height: 1px;
+    width: 25px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    margin-left: 49%;
+  }
+
+  .our-partner-logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 100px;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  .our-partner-logo img {
+    width: 140px;
+    height: 90px;
   }
 }
