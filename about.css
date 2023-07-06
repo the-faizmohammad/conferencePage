@@ -26,7 +26,7 @@ a {
 }
 
 .header-main {
-    background-image: url(./assets/mobile_intro_bg.png);
+    background-image: url(./assets/about_bg_01.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 480px;
@@ -165,84 +165,82 @@ header-main {
     text-align: center;
     justify-content: center;
     margin: 20px;
-  }
-  
-  .about-top-title {
+}
+
+.about-top-title {
     font-size: 21px;
-  }
-  
-  .about-creative-underline {
+}
+
+.about-creative-underline {
     background-color: rgb(250, 54, 6);
     height: 1px;
     width: 25px;
     margin-top: 15px;
     margin-bottom: -10px;
     margin-left: 50%;
-  }
-  
-  .about-top-p {
+}
+
+.about-top-p {
     font-size: 13px;
     padding: 30px 0;
     text-align: center;
-  }
-  
-  .about-top-img {
+}
+
+.about-top-img {
     border: 1px solid var(--gray-color);
     padding: 10px;
     height: 140px;
     width: 200px;
-  }
-  
-  .about-creative-underline1 {
+}
+
+.about-creative-underline1 {
     background-color: var(--gray-color);
     height: 1px;
     margin-top: 35px;
     margin-bottom: 35px;
     margin-left: -20px;
     min-width: 114%;
-  }
-  
-  .about-bottom-title {
+}
+
+.about-bottom-title {
     font-size: 20px;
-  }
-  
-  .about-bottom-p {
+}
+
+.about-bottom-p {
     font-size: 13px;
     font-family: "lato", sans-serif;
     padding: 25px;
-  }
-  
-  .about-bottom-images {
+}
+
+.about-bottom-images {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 0 15px;
-  }
-  
-  .about-img-ai {
+}
+
+.about-img-ai {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
     justify-content: center;
     margin-top: 1.5em;
-  }
-  
-  .ai-2020 {
+}
+
+.ai-2020 {
     background-image:
-      linear-gradient(
-        to bottom,
-        rgba(236, 83, 66, 0.571),
-        rgba(236, 82, 66, 0.5)
-      ),
-      url(assets/event1.png);
-  }
-  
-  .about-year {
+        linear-gradient(to bottom,
+            rgba(236, 83, 66, 0.571),
+            rgba(236, 82, 66, 0.5)),
+        url(assets/event1.png);
+}
+
+.about-year {
     font-weight: 700;
     font-size: 2em;
-  }
-  
-  .event {
+}
+
+.event {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -253,20 +251,14 @@ header-main {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-  }
-  
-  .ai-2023 {
-    background-image:
-      linear-gradient(
-        to bottom,
-        rgba(236, 83, 66, 0.571),
-        rgba(236, 82, 66, 0.5)
-      ),
-      url(assets/event2.png);
-  }
+}
 
-.footer {
-    display: none;
+.ai-2023 {
+    background-image:
+        linear-gradient(to bottom,
+            rgba(236, 83, 66, 0.571),
+            rgba(236, 82, 66, 0.5)),
+        url(assets/event2.png);
 }
 
 .about-email {
@@ -285,37 +277,37 @@ header-main {
 
 .our-partner {
     background-color: var(--primary-black);
-  }
-  
-  .our-partner-title {
+}
+
+.our-partner-title {
     text-align: center;
     padding-top: 30px;
     color: white;
-  }
-  
-  .our-partner-underline {
+}
+
+.our-partner-underline {
     background-color: rgb(250, 54, 6);
     height: 1px;
     width: 25px;
     margin-top: 15px;
     margin-bottom: -10px;
     margin-left: 45%;
-  }
-  
-  .our-first-partner {
+}
+
+.our-first-partner {
     display: flex;
     flex-direction: row;
     margin-left: 35px;
     gap: 6px;
     margin-top: 30px;
-  }
-  
-  .our-first-partner img {
+}
+
+.our-first-partner img {
     width: 70px;
     height: 45px;
-  }
-  
-  .our-second-partner {
+}
+
+.our-second-partner {
     display: flex;
     flex-direction: row;
     margin-left: 20px;
@@ -325,12 +317,49 @@ header-main {
     justify-content: center;
     align-items: center;
     padding: 30px;
-  }
-  
-  .our-second-partner img {
+}
+
+.our-second-partner img {
     width: 85px;
     height: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3;
+    height: 200px;
   }
+  
+  .footer-section {
+    background-color: var(--primary-grey);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .footer-image {
+    width: 150px;
+    height: auto;
+    margin: 14px 10px;
+    border-radius: 16px;
+  }
+  
+  .footer-description {
+    color: #272a31;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    font-family: "lato", sans-serif;
+    margin: 10px;
+    width:fit-content
+  }
+  
 
 @media only screen and (min-width: 768px) {
     .mobile-head {
@@ -405,7 +434,7 @@ header-main {
     }
 
     .header-main {
-        background-image: url(assets/main_big.png);
+        background-image: url(assets/about_bg_02.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -418,9 +447,9 @@ header-main {
     }
 
     .header-main-title {
-    padding-top: 80px;
-    padding-bottom: 50px;
-    text-align: center;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        text-align: center;
     }
 
     .header-main-description {
@@ -433,29 +462,31 @@ header-main {
 
     .about-email {
         padding: 3px 0 70px 0;
-      }
-    
-      .about-top-title {
+    }
+
+    .about-top-title {
         margin-top: 30px;
-      }
-      
-      .about-top-img {
+    }
+
+    .about-top-img {
         padding: 10px 50px;
-        width: 85%;
-        height: auto;
+        width: 450px;
+        height: 300px;
+        border: 1px solid black;
       }
       
-      .about-bottom-images {
+    .about-bottom-images {
         display: flex;
         flex-direction: row;
         padding-top: 30px;
         padding-bottom: 60px;
         justify-content: center;
-      }
-      
-      .about-bottom-images img {
+    }
+
+    .about-bottom-images img {
         width: 330px;
-      }
+    }
+
     .header-main-content {
         position: relative;
         z-index: 1;
@@ -465,7 +496,7 @@ header-main {
         display: none;
     }
 
-   
+
     .footer {
         display: flex;
         flex-direction: row;
@@ -496,7 +527,7 @@ header-main {
     }
 
     .footer-description {
-        color: #d3d3d3
+        color: #d3d3d3;
         font-weight: normal;
         font-size: 11px;
         text-align: center;
