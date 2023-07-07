@@ -30,6 +30,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 480px;
+  display: block;
 }
 
 .header-video {
@@ -37,9 +38,6 @@ a {
 }
 
 /* start mobile-menu */
-header-main {
-  display: block;
-}
 
 .mobile-nav {
   display: flex;
@@ -48,15 +46,14 @@ header-main {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: -10px;
-
 }
 
 .mob-menu-links {
   position: fixed;
   background-color: rgba(236, 82, 66, 0.5);
   backdrop-filter: blur(60px);
-  display: none;
-  align-items: left;
+  display: flex;
+  justify-content: start;
   gap: 30px;
   flex-direction: column;
   list-style: none;
@@ -72,7 +69,6 @@ header-main {
   width: 20px;
   height: 20px;
 }
-
 
 .logo {
   height: 80px;
@@ -378,6 +374,7 @@ header-main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
   }
 
   .header-main-salutation {
@@ -397,7 +394,6 @@ header-main {
     width: 600px;
     padding: 30px 30px;
     font-size: 18px;
-
   }
 
   .header-date {
@@ -409,10 +405,6 @@ header-main {
     margin-left: 135px;
     margin-bottom: 20px;
     margin-bottom: 110px;
-  }
-
-  .header-main {
-    position: relative;
   }
 
   .header-video {
@@ -586,5 +578,4 @@ header-main {
     margin-left: 50px;
     width: 42%;
   }
-
 }
