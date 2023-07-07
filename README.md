@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h3><b>Conference Page</b></h3>
+  <h3><b>Conference Page- AI for Good </b></h3>
 
 </div>
 
@@ -31,7 +31,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# porfolio mobile version <a name="about-project"></a>
+# AI for Good <a name="about-project"></a>
 
 **Conference Page!** 
 Welcome to the  repository for our Conference Page!
@@ -80,7 +80,7 @@ This repository contains the code and assets for our conference website. The web
 
 ## 🚀 Loom Video Walkthrough <a name="video-walkthrough"></a>
 
-- [Loom Video Walkthrough](https:www.google.com)
+- [Loom Video Walkthrough]()
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -164,7 +164,7 @@ If you like this project give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank everyone who continues supporting me.
+Special thanks to author [Cindy Shin](https://www.behance.net/adagio07) for here exceptional design which served as inspiration for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
