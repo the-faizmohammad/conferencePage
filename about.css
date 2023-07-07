@@ -136,6 +136,7 @@ header-main {
 }
 
 .header-main-description {
+    background-color: #fff;
     border: 2px solid #d3d3d3;
     color: var(--primary-black);
     font-size: 14px;
@@ -152,6 +153,7 @@ header-main {
     text-align: center;
     line-height: 20px;
     margin: 10px;
+    font-weight: bold;
 }
 
 .bottom-nav-bar,
