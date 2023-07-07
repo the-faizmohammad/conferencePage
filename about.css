@@ -25,8 +25,8 @@ a {
     --primary-grey: #d3d3d3;
 }
 
-.header-main {
-    background-color: var(--gray-color);
+.main-header {
+    background-color: #fff;
     background-image: url(./assets/about_bg_01.png);
     background-repeat: no-repeat;
     background-position-x: 0;
@@ -119,6 +119,7 @@ header-main {
 }
 
 .header-main-salutation {
+    background-color: #fff;
     color: var(--primary-red);
     font-size: 24px;
     text-align: center;
@@ -131,15 +132,15 @@ header-main {
     padding: 0 20px;
     text-align: center;
     font-size: 28px;
+
 }
 
 .header-main-description {
-    background-color: #fff;
-    border: 2px solid #fff;
+    border: 2px solid #d3d3d3;
     color: var(--primary-black);
     font-size: 14px;
     line-height: 23px;
-    margin: 30px 50px;
+    margin: 20px 10px;
     padding: 10px;
     text-align: center;
 }
@@ -183,14 +184,13 @@ header-main {
     font-size: 13px;
     padding: 30px 0;
     text-align: center;
-    margin: 60px;
 }
 
 .about-top-img {
-    border: 1px solid var(--gray-color);
+    border: 1px solid var(--primary-black);
     padding: 10px;
-    height: 140px;
-    width: 200px;
+    height: 198px;
+    width: 300px;
 }
 
 .about-creative-underline1 {
@@ -246,8 +246,8 @@ header-main {
     justify-content: center;
     align-items: center;
     padding: 1.5em;
-    width: 350px;
-    height: 200px;
+    width: 650px;
+    height: 240px;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -310,17 +310,17 @@ header-main {
 .our-second-partner {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
     margin-left: 20px;
     margin-right: 20px;
     min-width: 100px;
-    gap: 45px;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
 .our-second-partner img {
-    width: 85px;
+    width: 82px;
     height: 50px;
 }
 
@@ -331,9 +331,9 @@ header-main {
     align-items: center;
     background-color: #d3d3d3;
     height: 200px;
-}
-
-.footer-section {
+  }
+  
+  .footer-section {
     background-color: var(--primary-grey);
     width: 100%;
     display: flex;
@@ -341,25 +341,24 @@ header-main {
     justify-content: center;
     align-items: center;
     padding: 10px;
-}
-
-.footer-image {
+  }
+  
+  .footer-image {
     width: 150px;
-    height: auto;
+    height: 70px;
     margin: 14px 10px;
     border-radius: 16px;
-}
-
-.footer-description {
+  }
+  
+  .footer-description {
     color: #272a31;
     font-weight: normal;
     font-size: 11px;
     text-align: center;
     font-family: "lato", sans-serif;
     margin: 10px;
-    width: fit-content;
-}
-
+    width:fit-content
+  }
   
 
 @media only screen and (min-width: 768px) {
@@ -401,7 +400,7 @@ header-main {
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .top-nav-item {
         font-size: 15px;
         color: #fff;
@@ -409,18 +408,18 @@ header-main {
         font-family: Poppins, sans-serif;
         margin: 10px;
     }
-    
+
     a {
         text-decoration: none;
     }
-    
+
     .nav-bar-logo {
         height: 78px;
         width: 150px;
         margin: 120px;
         border: 4px solid #ec5242;
     }
-    
+
     .nav-bar-links {
         display: flex;
         flex-direction: row;
@@ -428,20 +427,20 @@ header-main {
         padding-right: 80px;
         padding-top: 30px;
     }
-    
+
     .bottom-nav-link {
         color: var(--primary-black);
         font-size: 19px;
     }
-    
+
     .header-main {
         background-image: url(assets/about_bg_02.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         background-color: #d3d3d33d;
+
     }
-    
 
     .header-main-salutation {
         display: none;
@@ -471,8 +470,8 @@ header-main {
 
     .about-top-img {
         padding: 10px 50px;
-        width: 450px;
-        height: 300px;
+        width: 650px;
+        height: auto;
         border: 1px solid black;
       }
       
@@ -486,6 +485,12 @@ header-main {
 
     .about-bottom-images img {
         width: 330px;
+    }
+
+    .event {
+        width: 350px;
+        height:250px;
+
     }
 
     .header-main-content {
@@ -514,7 +519,7 @@ header-main {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        padding-left: 150px;
+        padding-left: 86px;
         padding-bottom: 30px;
     }
 
