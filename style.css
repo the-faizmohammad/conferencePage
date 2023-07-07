@@ -25,7 +25,7 @@ a {
   --primary-grey: #d3d3d3;
 }
 
-.header-main {
+.home-container {
   background-image: url(./assets/mobile_intro_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
