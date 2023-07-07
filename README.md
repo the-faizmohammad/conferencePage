@@ -80,7 +80,7 @@ This repository contains the code and assets for our conference website. The web
 
 ## 🚀 Loom Video Walkthrough <a name="video-walkthrough"></a>
 
-- [Loom Video Walkthrough]()
+- [Loom Video Walkthrough](https://www.loom.com/share/9d3ff1f01ff942e481c790bc9cb9fb7f?sid=32f7e238-473e-462d-9014-cde462f62687)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
