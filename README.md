@@ -74,7 +74,7 @@ This repository contains the code and assets for our conference website. The web
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo link](https://https://the-faizmohammad.github.io/conferencePage/)
+- [Live Demo link](https://the-faizmohammad.github.io/conferencePage/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
