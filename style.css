@@ -328,9 +328,8 @@ a {
   }
 
   #ai {
-    border: 3px solid orangered;
-    padding: 5px;
-    margin-bottom: 24px;
+    border: 4px solid orangered;
+    margin-bottom: 18px;
   }
 
   .bottom-nav-bar {
@@ -364,7 +363,7 @@ a {
   .nav-bar-links {
     display: flex;
     flex-direction: row;
-    gap: 18px;
+    gap: 24px;
     padding-right: 80px;
     padding-top: 30px;
   }
@@ -533,7 +532,7 @@ a {
     margin-left: 20px;
     margin-right: 20px;
     min-width: 100px;
-    gap: 90px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     padding: 30px;
@@ -541,8 +540,8 @@ a {
   }
 
   .our-partner-logo img {
-    width: 140px;
-    height: 90px;
+    width: 160px;
+    height: 100px;
   }
 
   .footer {
@@ -559,9 +558,8 @@ a {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    padding-left: 150px;
+    padding-left: 220px;
     padding-bottom: 30px;
   }
 
@@ -581,6 +579,6 @@ a {
     text-align: center;
     font-family: "lato", sans-serif;
     margin-left: 50px;
-    width: 42%;
+    width: 52%;
   }
 }
