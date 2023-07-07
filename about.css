@@ -92,6 +92,11 @@ a {
   top: 19px;
 }
 
+.mob-menu.para {
+  color: white;
+  padding: 0 10px 10px;
+}
+
 .nav-bar-icon {
   width: 24px;
   height: 20px;

@@ -37,6 +37,11 @@ a {
   display: none;
 }
 
+.mob-menu.para {
+  color: white;
+  padding: 0 10px 10px;
+}
+
 /* start mobile-menu */
 
 .mobile-nav {
